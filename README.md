@@ -1,4 +1,4 @@
-# finlytics
+# Finlytics
 
 The purpose of this tool is to provide financial analytics of companies based on financial parameters like EBITDA, Total Revenue, debt-on-equity ratio, Diluted EPS, etc. Using these fields for the past 3 years we are trying to analyze if the company is in a good position to invest right now and how much return a person can anticipate for that company. It also provides stock predictions for the next 20 days for the investors who are interested in short term investments. 
 

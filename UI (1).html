@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-code.css">
+    <title>GitHub API Search</title>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+	background-color:White;
+
+        }
+
+        img {
+position: absolute;
+            width: 1533px;
+		height: 200px;
+            max-width: 10000px; /* Set a max-width to limit the width of the image */
+            align-self: flex-start; /* Align the top of the image with the top of its container */
+	justify-content: center;
+	align-content: center;
+		
+        }
+	.spacer {
+position: absolute;
+            margin-top: 50px;
+		align-items: center;
+		justify-content: center;	
+		
+        }
+    </style>
+<script type = "text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<img src="logo.jpg" alt="Description of the image">
+    <div class="spacer">
+        <h1 style="color: white;">Investment portfolio for a company</h1>
+        <input type="text" id="searchInput" placeholder="Company name">
+        <button onclick=displayTable()>Search</button>
+
+        <div id="tableContainer"></div>
+
+
+
+</body>
+</html>
